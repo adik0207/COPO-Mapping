@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
 from pymongo import MongoClient
+import matplotlib
+matplotlib.use('Agg')
 
 app = Flask(__name__ , static_url_path='/static')
 
